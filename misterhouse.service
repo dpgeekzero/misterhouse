@@ -1,0 +1,10 @@
+[Unit]
+Description=Misterhouse Server
+
+[Service]
+StandardOutput=null
+WorkingDirectory=/opt/misterhouse/bin
+ExecStart=/opt/misterhouse/bin/mhl -log_file /var/log/misterhouse.log
+
+[Install]
+WantedBy=multi-user.target
