@@ -1,0 +1,9 @@
+
+Format = A
+#
+# See mh/lib/read_table_A.pl  for definition of Format=A items
+#
+
+INSTEON_PLM,	PLM
+
+INSTEON_SWITCHLINC,	0A.67.67,	kitchen_overhead,	Kitchen|Inside_Lights 	
