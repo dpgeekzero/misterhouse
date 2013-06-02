@@ -7,3 +7,4 @@ Format = A
 INSTEON_PLM,	PLM
 
 INSTEON_SWITCHLINC,	0A.67.67,	kitchen_overhead,	Kitchen|Inside_Lights 	
+INSTEON_SWITCHLINC,	03.05.75,	back_porch,		Outside_Lights 	
