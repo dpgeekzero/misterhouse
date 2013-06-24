@@ -3,6 +3,7 @@
 $basic_lights = new Voice_Cmd('Basic Lights');
 $goodnight = new Voice_Cmd('Goodnight Misterhouse');
 $inside_lights = new Voice_Cmd('Inside Lights [on,off]');
+$outside_lights = new Voice_Cmd('Outside Lights [on,off]');
 $normal_lights = new Voice_Cmd('Normal Lights');
 
 if (said $normal_lights) {
@@ -10,6 +11,8 @@ if (said $normal_lights) {
 
     set $bookshelf_light ON;
     $all -> remove ($bookshelf_light);
+    set $kitchen_over_cabinet "80%";
+    $all -> remove ($kitchen_over_cabinet);
     set $dining_room "80%";
     $all -> remove ($dining_room);
     set $foyer_light "40%";
@@ -33,5 +36,13 @@ if ($state = said $inside_lights) {
         set $Inside_Lights OFF;
     } else {
         set $Inside_Lights ON;
+    }
+}
+
+if ($state = said $outside_lights) {
+    if ($state eq 'off') {
+        set $Outside_Lights OFF;
+    } else {
+        set $Outside_Lights ON;
     }
 }
