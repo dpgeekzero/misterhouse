@@ -18,7 +18,7 @@ GROUP, Foyer,           Property(52;62;20;15)
 INSTEON_SWITCHLINC, 0A.67.67, dining_room,       All_Lights|Inside_Lights|Kitchen
 INSTEON_SWITCHLINC, 0B.7D.76, kitchen_overhead,  All_Lights|Inside_Lights|Kitchen
 INSTEON_SWITCHLINC, 03.05.75, back_porch,        All_Lights|Outside_Lights 
-INSTEON_SWITCHLINC, 0A.65.59, living_room,       All_Lights|Inside_Lights
+##INSTEON_SWITCHLINC, 0A.65.59, living_room,       All_Lights|Inside_Lights
 INSTEON_SWITCHLINC, 0A.75.31, hallway_south,     All_Lights|Inside_Lights
 INSTEON_SWITCHLINC, 09.84.15, garage_light,      All_Lights
 INSTEON_SWITCHLINC, 0F.AD.29, front_porch,       All_Lights|Outside_Lights
@@ -27,4 +27,5 @@ INSTEON_KEYPADLINC, 07.E4.72, foyer_light,       All_Lights|Inside_Lights
 
 INSTEON_LAMPLINC,   06.21.52, bookshelf_light,   All_Lights|Inside_Lights
 INSTEON_LAMPLINC,   00.4A.72, dougs_lamp,        All_Lights|Inside_Lights|Bedroom
+INSTEON_LAMPLINC,   0A.75.31, summers_lamp,        All_Lights|Inside_Lights|Bedroom
 INSTEON_LAMPLINC,   00.4A.79, kitchen_over_cabinet, All_Lights|Inside_Lights|Kitchen

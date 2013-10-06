@@ -21,6 +21,8 @@ if (said $normal_lights) {
     $all -> remove ($hallway_south);
     set $dougs_lamp "60%";
     $all -> remove ($dougs_lamp);
+    set $summers_lamp "60%";
+    $all -> remove ($summers_lamp);
 
     set $all OFF;
 }
