@@ -3,11 +3,10 @@ $basic_lights   = new Voice_Cmd('Basic Lights');
 $goodnight      = new Voice_Cmd('Goodnight Misterhouse');
 $inside_lights  = new Voice_Cmd('Inside Lights [on,off]');
 $outside_lights = new Voice_Cmd('Outside Lights [on,off]');
-$normal_lights  = new Voice_Cmd('Normal Lights');
+$set_normal_lights = new Voice_Cmd('Normal Lights');
 
-if ( said $normal_lights) {
-    my $all = new Group( list $Inside_Lights);
-
+if (said $set_normal_lights) {
+    my $all = new Group(list $Inside_Lights);
     set $bookshelf_light ON;
     $all->remove($bookshelf_light);
     set $kitchen_over_cabinet "80%";
@@ -22,6 +21,10 @@ if ( said $normal_lights) {
     $all->remove($dougs_lamp);
     set $summers_lamp "60%";
     $all->remove($summers_lamp);
+    set $hallway_north "30%";
+    $all -> remove ($hallway_north);
+    set $hallway_center "30%";
+    $all -> remove ($hallway_center );
 
     set $all OFF;
 }
