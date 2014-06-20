@@ -32,7 +32,7 @@ INSTEON_APPLIANCELINC,   06.21.52, bookshelf_light,   All_Lights|Inside_Lights
 INSTEON_LAMPLINC,   00.4A.72, dougs_lamp,        All_Lights|Inside_Lights|Bedroom
 #INSTEON_LAMPLINC,   0A.75.31, summers_lamp,        All_Lights|Inside_Lights|Bedroom
 INSTEON_LAMPLINC,   00.4A.79, kitchen_over_cabinet, All_Lights|Inside_Lights|Kitchen
-#INSTEON_LAMPLINC,   0b.f8.3f, nativity,		 All_Lights|Holiday_Lights|Inside_Lights
+INSTEON_LAMPLINC,   0b.f8.3f, office_corner,		 All_Lights|Inside_Lights
 
 SCENE_BUILD, hallway_lights, hallway_south, 1, 1, 80%, 0.5s
 SCENE_BUILD, hallway_lights, hallway_center, 1, 1, 80%, 0.5s
